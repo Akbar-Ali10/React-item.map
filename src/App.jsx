@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './Header'
+import Login from './Login';
 
 function App() {
 
@@ -80,7 +81,9 @@ function App() {
 
   return (
     <>
-      <Header Student={Student} />
+      {/* <Header Student={Student} /> */}
+      <Login/>
+
     </>
   )
 }
